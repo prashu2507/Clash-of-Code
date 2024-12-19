@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url('clash of code.png') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.welcome-container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-text h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+    color: #ffcc00;
+}
+
+.welcome-text p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.welcome-buttons {
+    margin-top: 20px;
+}
+
+.welcome-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.welcome-btn.primary {
+    background-color: #ffcc00;
+    color: black;
+}
+
+.welcome-btn.secondary {
+    background-color: transparent;
+    border: 2px solid #ffcc00;
+    color: white;
+}
+
+.welcome-btn:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
